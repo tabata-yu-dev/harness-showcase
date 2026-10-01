@@ -1,0 +1,25 @@
+{
+  "skillOverrides": {
+    "codex-guided-implement": "off",
+    "codex-moderated-implement": "off",
+    "handoff-implement": "off",
+    "review": "off",
+    "review-fix": "off"
+  },
+  "permissions": {
+    "deny": [
+      "Agent(fix-mapper)",
+      "Agent(fix-verifier)",
+      "Agent(post-scanner)",
+      "mcp__codex__codex",
+      "mcp__codex__codex-reply",
+      "Read(../var/research/vps/**)",
+      "Read(../var/research/vps-ingest/**)",
+      "Read(../var/research/dataset/**)",
+      "Read(../var/research/aggregates/**)",
+      "Read(../var/research/exploration/evaluations/**)",
+      "WebFetch(domain:127.0.0.1)",
+      "WebFetch(domain:localhost)"
+    ]
+  }
+}
